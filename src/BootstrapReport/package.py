@@ -5,9 +5,9 @@ import matplotlib as mpl
 from scipy.stats import norm
 from scipy.optimize import minimize
 import warnings
-from BootstrapReport import checkers
-from BootstrapReport import helpers
-from BootstrapReport import DiagnosticsMixin
+from . import checkers
+from . import helpers
+from ._diagnostics import DiagnosticsMixin
 
 class ObjectOfInterest(DiagnosticsMixin):
 
