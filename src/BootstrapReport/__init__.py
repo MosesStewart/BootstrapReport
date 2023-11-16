@@ -1,6 +1,6 @@
 __version__ = "0.0.1"
-from BootstrapReport import checkers
-from BootstrapReport import helpers
+import checkers
+import helpers
 from _diagnostics import DiagnosticsMixin
 from .package import ObjectOfInterest
 
