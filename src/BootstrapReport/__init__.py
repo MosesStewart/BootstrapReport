@@ -1,3 +1,6 @@
+import helpers
+import checkers
+import _diagnostics
 """
     BootstrapReport module
     ============================

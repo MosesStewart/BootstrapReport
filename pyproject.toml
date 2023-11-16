@@ -35,9 +35,9 @@ dependencies = [
 ]
 
 [tool.setuptools.packages.find]
-where = ["src"]  # list of folders that contain the packages (["."] by default)
-include = ["BootstrapReport*"]  # package names should match these glob patterns (["*"] by default)
-exclude = ["checkers*", "helpers*", "_diagnostics*"]  # exclude packages matching these glob patterns (empty by default)
+where = ["src"]
+include = ["BootstrapReport*"]
+exclude = ["checkers*", "helpers*", "_diagnostics*"]
 
 [project.optional-dependencies] 
 test = ["pytest"]
