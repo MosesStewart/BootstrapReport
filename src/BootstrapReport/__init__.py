@@ -1,5 +1,6 @@
-import BootstrapReport
-from BootstrapReport import ObjectOfInterest
+__version__ = "0.0.1"
+
+from BootstrapReport import *
 """
     BootstrapReport module
     ============================

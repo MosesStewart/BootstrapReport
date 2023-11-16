@@ -36,8 +36,8 @@ dependencies = [
 
 [tool.setuptools.packages.find]
 where = ["src"]
-include = ["BootstrapReport*"]
-exclude = ["checkers*", "helpers*", "_diagnostics*"]
+include = ["BootstrapReport"]
+exclude = ["checkers", "helpers", "_diagnostics"]
 
 [project.optional-dependencies] 
 test = ["pytest"]
