@@ -1,6 +1,6 @@
 __version__ = "0.0.1"
-from BootstrapReport.BootstrapReport import ObjectOfInterest
-
+from package import ObjectOfInterest
+import helpers
 
 """
     BootstrapReport module
