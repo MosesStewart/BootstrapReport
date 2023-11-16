@@ -1,6 +1,4 @@
-import helpers
-import checkers
-import _diagnostics
+from BootstrapReport import ObjectOfInterest
 """
     BootstrapReport module
     ============================
