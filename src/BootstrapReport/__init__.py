@@ -1,6 +1,8 @@
 __version__ = "0.0.1"
 from .package import ObjectOfInterest
-
+__all__ = [
+    "package",
+]
 """
     BootstrapReport module
     ============================
