@@ -1,7 +1,4 @@
 __version__ = "0.0.1"
-import checkers # must come before helpers
-import helpers
-from _diagnostics import DiagnosticsMixin
 from .package import ObjectOfInterest
 
 """
