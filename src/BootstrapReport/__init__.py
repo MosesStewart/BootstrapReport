@@ -1,4 +1,5 @@
 import BootstrapReport
+from BootstrapReport import ObjectOfInterest
 """
     BootstrapReport module
     ============================
