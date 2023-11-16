@@ -1,5 +1,9 @@
 __version__ = "0.0.1"
 from BootstrapReport.BootstrapReport import *
+import warnings
+import BootstrapReport.checkers as checkers
+import BootstrapReport.helpers as helpers
+from _diagnostics import DiagnosticsMixin
 
 """
     BootstrapReport module
