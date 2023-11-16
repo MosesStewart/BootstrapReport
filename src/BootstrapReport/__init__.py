@@ -1,8 +1,8 @@
+from .report import ObjectOfInterest
+from .examples._generate_example_data import generate_example_dataset
 __version__ = "0.0.1"
-from .package import ObjectOfInterest
-__all__ = [
-    "package",
-]
+__all__ = []
+
 """
     BootstrapReport module
     ============================
