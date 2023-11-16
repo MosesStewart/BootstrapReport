@@ -1,4 +1,4 @@
-from BootstrapReport import ObjectOfInterest
+import BootstrapReport
 """
     BootstrapReport module
     ============================
